@@ -77,23 +77,23 @@ def button_total():
 
 # Defining the buttons
 
-button_1 = Button(root, text="1", padx=40, pady=20, command=lambda: button_click(1))
-button_2 = Button(root, text="2", padx=40, pady=20, command=lambda: button_click(2))
-button_3 = Button(root, text="3", padx=40, pady=20, command=lambda: button_click(3))
-button_4 = Button(root, text="4", padx=40, pady=20, command=lambda: button_click(4))
-button_5 = Button(root, text="5", padx=40, pady=20, command=lambda: button_click(5))
-button_6 = Button(root, text="6", padx=40, pady=20, command=lambda: button_click(6))
-button_7 = Button(root, text="7", padx=40, pady=20, command=lambda: button_click(7))
-button_8 = Button(root, text="8", padx=40, pady=20, command=lambda: button_click(8))
-button_9 = Button(root, text="9",  padx=40, pady=20, command=lambda: button_click(9))
-button_0 = Button(root, text="0",  padx=40, pady=20, command=lambda: button_click(0))
+button_1 = Button(root, text="1", bg="red", padx=40, pady=20, command=lambda: button_click(1))
+button_2 = Button(root, text="2", bg="red", padx=40, pady=20, command=lambda: button_click(2))
+button_3 = Button(root, text="3", bg="red", padx=40, pady=20, command=lambda: button_click(3))
+button_4 = Button(root, text="4", bg="red", padx=40, pady=20, command=lambda: button_click(4))
+button_5 = Button(root, text="5", bg="red", padx=40, pady=20, command=lambda: button_click(5))
+button_6 = Button(root, text="6", bg="red", padx=40, pady=20, command=lambda: button_click(6))
+button_7 = Button(root, text="7", bg="red", padx=40, pady=20, command=lambda: button_click(7))
+button_8 = Button(root, text="8", bg="red", padx=40, pady=20, command=lambda: button_click(8))
+button_9 = Button(root, text="9", bg="red",  padx=40, pady=20, command=lambda: button_click(9))
+button_0 = Button(root, text="0", bg="red",  padx=40, pady=20, command=lambda: button_click(0))
 
-button_add = Button(root, text="+",  padx=40, pady=20, command=button_add)
-button_total = Button(root, text="=",  padx=40, pady=20, command=button_total)
-button_clear = Button(root, text="C", padx=40, pady=20, command=button_clear)
-button_subtract = Button(root, text="-",  padx=40, pady=20, command=button_subtract)
-button_multiply = Button(root, text="*",  padx=40, pady=20, command=button_multiply)
-button_divide = Button(root, text="/",  padx=40, pady=20, command=button_divide)
+button_add = Button(root, text="+", bg="grey",  padx=40, pady=20, command=button_add)
+button_total = Button(root, text="=", bg="grey",  padx=40, pady=20, command=button_total)
+button_clear = Button(root, text="C", bg="grey", padx=40, pady=20, command=button_clear)
+button_subtract = Button(root, text="-", bg="grey",  padx=40, pady=20, command=button_subtract)
+button_multiply = Button(root, text="*", bg="grey",  padx=40, pady=20, command=button_multiply)
+button_divide = Button(root, text="/", bg="grey",  padx=40, pady=20, command=button_divide)
 
 # Putting buttons on the screen
 
